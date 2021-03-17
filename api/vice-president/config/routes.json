@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vice-presidents",
+      "handler": "vice-president.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vice-presidents/count",
+      "handler": "vice-president.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vice-presidents/:id",
+      "handler": "vice-president.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vice-presidents",
+      "handler": "vice-president.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vice-presidents/:id",
+      "handler": "vice-president.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vice-presidents/:id",
+      "handler": "vice-president.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

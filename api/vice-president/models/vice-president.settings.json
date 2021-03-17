@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vice_presidents",
+  "info": {
+    "name": "vice_president"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "candidate_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "candidate-info.candidate-info"
+    }
+  }
+}

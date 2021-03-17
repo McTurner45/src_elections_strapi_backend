@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ministers",
+  "info": {
+    "name": "ministers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ministry": {
+      "type": "string",
+      "required": true
+    },
+    "candidate_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "candidate-info.candidate-info"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presidents",
+  "info": {
+    "name": "president",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "candidate_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "candidate-info.candidate-info"
+    }
+  }
+}

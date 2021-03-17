@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "dayaxfbib",
+    "api_key": "946929139396933",
+    "api_secret": "wKJaQvTieGAwAHWfkuyvpYWzQGU"
+  }
+}
