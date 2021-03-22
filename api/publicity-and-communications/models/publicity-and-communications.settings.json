@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "publicity_and_communications",
   "info": {
-    "name": "vice_president",
-    "description": ""
+    "name": "Publicity_and_communications"
   },
   "options": {
     "increments": true,

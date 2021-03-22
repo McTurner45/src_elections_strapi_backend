@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/academic-affairs",
+      "handler": "academic-affairs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/academic-affairs/count",
+      "handler": "academic-affairs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/academic-affairs/:id",
+      "handler": "academic-affairs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/academic-affairs",
+      "handler": "academic-affairs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/academic-affairs/:id",
+      "handler": "academic-affairs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/academic-affairs/:id",
+      "handler": "academic-affairs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

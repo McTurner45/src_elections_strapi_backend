@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/student-welfare-and-advocacies",
+      "handler": "student-welfare-and-advocacy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/student-welfare-and-advocacies/count",
+      "handler": "student-welfare-and-advocacy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/student-welfare-and-advocacies/:id",
+      "handler": "student-welfare-and-advocacy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/student-welfare-and-advocacies",
+      "handler": "student-welfare-and-advocacy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/student-welfare-and-advocacies/:id",
+      "handler": "student-welfare-and-advocacy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/student-welfare-and-advocacies/:id",
+      "handler": "student-welfare-and-advocacy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

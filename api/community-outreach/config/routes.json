@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/community-outreaches",
+      "handler": "community-outreach.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/community-outreaches/count",
+      "handler": "community-outreach.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/community-outreaches/:id",
+      "handler": "community-outreach.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/community-outreaches",
+      "handler": "community-outreach.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/community-outreaches/:id",
+      "handler": "community-outreach.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/community-outreaches/:id",
+      "handler": "community-outreach.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

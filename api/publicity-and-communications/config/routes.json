@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/publicity-and-communications",
+      "handler": "publicity-and-communications.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/publicity-and-communications/count",
+      "handler": "publicity-and-communications.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/publicity-and-communications/:id",
+      "handler": "publicity-and-communications.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/publicity-and-communications",
+      "handler": "publicity-and-communications.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/publicity-and-communications/:id",
+      "handler": "publicity-and-communications.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/publicity-and-communications/:id",
+      "handler": "publicity-and-communications.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

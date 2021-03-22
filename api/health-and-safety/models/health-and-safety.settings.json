@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "health_and_safeties",
   "info": {
-    "name": "vice_president",
-    "description": ""
+    "name": "Health_and_safety"
   },
   "options": {
     "increments": true,

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "student_welfare_and_advocacies",
   "info": {
-    "name": "vice_president",
-    "description": ""
+    "name": "Student_welfare_and_advocacy"
   },
   "options": {
     "increments": true,

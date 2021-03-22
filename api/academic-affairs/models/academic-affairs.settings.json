@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "academic_affairs",
   "info": {
-    "name": "vice_president",
+    "name": "Academic_affairs",
     "description": ""
   },
   "options": {

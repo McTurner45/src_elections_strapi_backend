@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "community_outreaches",
   "info": {
-    "name": "vice_president",
-    "description": ""
+    "name": "Community_outreach"
   },
   "options": {
     "increments": true,

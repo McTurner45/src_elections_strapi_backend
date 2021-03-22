@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "entertainments",
   "info": {
-    "name": "vice_president",
-    "description": ""
+    "name": "Entertainment"
   },
   "options": {
     "increments": true,

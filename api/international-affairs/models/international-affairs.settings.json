@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "international_affairs",
   "info": {
-    "name": "vice_president",
-    "description": ""
+    "name": "International_affairs"
   },
   "options": {
     "increments": true,

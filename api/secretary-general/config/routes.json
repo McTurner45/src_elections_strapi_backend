@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/secretary-generals",
+      "handler": "secretary-general.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/secretary-generals/count",
+      "handler": "secretary-general.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/secretary-generals/:id",
+      "handler": "secretary-general.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/secretary-generals",
+      "handler": "secretary-general.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/secretary-generals/:id",
+      "handler": "secretary-general.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/secretary-generals/:id",
+      "handler": "secretary-general.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

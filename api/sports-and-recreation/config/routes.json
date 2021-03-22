@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sports-and-recreations",
+      "handler": "sports-and-recreation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sports-and-recreations/count",
+      "handler": "sports-and-recreation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sports-and-recreations/:id",
+      "handler": "sports-and-recreation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sports-and-recreations",
+      "handler": "sports-and-recreation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sports-and-recreations/:id",
+      "handler": "sports-and-recreation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sports-and-recreations/:id",
+      "handler": "sports-and-recreation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

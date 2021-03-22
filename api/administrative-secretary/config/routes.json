@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/administrative-secretaries",
+      "handler": "administrative-secretary.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/administrative-secretaries/count",
+      "handler": "administrative-secretary.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/administrative-secretaries/:id",
+      "handler": "administrative-secretary.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/administrative-secretaries",
+      "handler": "administrative-secretary.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/administrative-secretaries/:id",
+      "handler": "administrative-secretary.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/administrative-secretaries/:id",
+      "handler": "administrative-secretary.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

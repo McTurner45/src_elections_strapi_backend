@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vice_presidents",
+  "collectionName": "treasurers",
   "info": {
-    "name": "vice_president",
+    "name": "treasurer",
     "description": ""
   },
   "options": {

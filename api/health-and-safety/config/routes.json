@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/health-and-safeties",
+      "handler": "health-and-safety.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/health-and-safeties/count",
+      "handler": "health-and-safety.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/health-and-safeties/:id",
+      "handler": "health-and-safety.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/health-and-safeties",
+      "handler": "health-and-safety.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/health-and-safeties/:id",
+      "handler": "health-and-safety.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/health-and-safeties/:id",
+      "handler": "health-and-safety.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/international-affairs",
+      "handler": "international-affairs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/international-affairs/count",
+      "handler": "international-affairs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/international-affairs/:id",
+      "handler": "international-affairs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/international-affairs",
+      "handler": "international-affairs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/international-affairs/:id",
+      "handler": "international-affairs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/international-affairs/:id",
+      "handler": "international-affairs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
