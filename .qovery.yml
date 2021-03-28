@@ -1,0 +1,15 @@
+---
+application:
+  name: "src-elections-strapi-backend"
+  project: "src-election-stapi"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "2021-elections"
+  version: "11"
+routers:
+- name: "main-src-elections-strapi-backend"
+  routes:
+  - application_name: "src-elections-strapi-backend"
+    paths:
+    - "/*"
